@@ -1,8 +1,8 @@
 {
-  "name": "euglena.organelle.net.nodejs",
+  "name": "euglena.organelle.netclient.socketio",
   "version": "0.0.1",
   "description": "",
-  "main": "src/euglena.organelle.net.nodejs.js",
+  "main": "src/euglena.organelle.netclient.socketio",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
