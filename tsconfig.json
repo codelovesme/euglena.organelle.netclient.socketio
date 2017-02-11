@@ -7,5 +7,5 @@
         "sourceMap": true,
         "declaration":true
     },
-    "files": [ "src/euglena.organelle.netclient.socketio.ts"]
+    "files": [ "src/index.ts"]
 }

@@ -10,9 +10,7 @@ import Particle = euglena.being.Particle;
 import * as io from "socket.io";
 import Exception = euglena.sys.type.Exception;
 
-
-const OrganelleName = "ReceptionOrganelleImplHttp";
-
+let OrganelleName = euglena_template.being.alive.constants.organelles.NetClientOrganelle;
 let this_: Organelle = null;
 export class Organelle extends euglena_template.being.alive.organelle.NetClientOrganelle {
     private servers: any;
