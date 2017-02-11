@@ -61,7 +61,6 @@ class Organelle extends euglena_template_1.euglena_template.being.alive.organell
                 }
             });
             if (!this.servers[to.data.name] && !this.triedToConnect.get(to.data.name)) {
-                this.connectToEuglena(to);
             }
         }
     }

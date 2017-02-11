@@ -68,7 +68,7 @@ export class Organelle extends euglena_template.being.alive.organelle.NetClientO
 
             });
             if (!this.servers[to.data.name] && !this.triedToConnect.get(to.data.name)) {
-                this.connectToEuglena(to);
+                //this.connectToEuglena(to);
             }
         }
     }
