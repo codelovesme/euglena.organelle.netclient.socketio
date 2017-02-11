@@ -73,7 +73,7 @@ export class Organelle extends euglena_template.being.alive.organelle.NetClientO
         }
     }
     private connectToEuglena(euglenaInfo: euglena_template.being.alive.particle.EuglenaInfo) {
-        var post_options: http.RequestOptions;
+        var post_options: http.RequestOptions = {};
         post_options.host = euglenaInfo.data.url;
         post_options.port = Number(euglenaInfo.data.port);
         post_options.path = "/";

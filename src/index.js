@@ -66,7 +66,7 @@ class Organelle extends euglena_template_1.euglena_template.being.alive.organell
         }
     }
     connectToEuglena(euglenaInfo) {
-        var post_options;
+        var post_options = {};
         post_options.host = euglenaInfo.data.url;
         post_options.port = Number(euglenaInfo.data.port);
         post_options.path = "/";
